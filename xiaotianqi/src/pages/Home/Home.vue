@@ -3,7 +3,7 @@
         <home-header v-show="ListShow"></home-header>
         <home-list v-show="ListShow" ></home-list>
         <home-menu @changeSearch="ChangeSearch" @changeList="ChangeList"></home-menu>
-        <search v-show="SearchShow" ></search>
+        <search v-show="SearchShow" @changeList="ChangeList"></search>
     </div>
 </template>
 

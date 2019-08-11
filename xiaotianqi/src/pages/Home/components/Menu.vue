@@ -9,10 +9,6 @@
                 <span class="iconfont menu-img">&#xe617;</span><br>
                 <span>查找</span>
             </li>
-            <li class="picture-button">
-                <span class="iconfont menu-img">&#xe610;</span><br>
-                <span>一图</span>
-            </li>
         </ul>
     </div>
 </template>
@@ -50,12 +46,10 @@
         font-size: 2rem;
     }
     .home-button{
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
     .search-button{
-        margin-left: 7rem;
+        margin-left: 13.5rem;
     }
-    .picture-button{
-        margin-left: 7rem;
-    }
+
 </style>

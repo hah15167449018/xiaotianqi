@@ -1,13 +1,16 @@
 <template>
     <div class="header">
         <span class="iconfont">&#xec3f;</span>
-        <span>余杭</span>
+        <span>{{this.$store.state.city}}</span>
     </div>
 </template>
 
 <script>
   export default {
-    name: "HomeHeader"
+    name: "HomeHeader",
+    props:{
+      city:String
+    }
   }
 </script>
 
